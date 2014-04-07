@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Flickr CC Search",
+  "description": "Quickly search Flickr for copyright-free and CC-BY photos.",
+  "version": "1.0",
+
+  "permissions": [
+    "https://secure.flickr.com/"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "flickr-search.html"
+  }
+}
